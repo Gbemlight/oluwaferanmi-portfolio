@@ -38,8 +38,8 @@ const SIGNATURE_PROJECTS = [
 
 const STATS = [
   { number: "24+", label: "Community Activities" },
-  { number: "7", label: "Signature Projects" },
-  { number: "50+", label: "Boys Supported" },
+  { number: "29", label: "Signature Projects" },
+  { number: "1250", label: "Boys Supported" },
   { number: "2026", label: "Conference Organized" },
 ];
 
