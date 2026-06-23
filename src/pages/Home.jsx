@@ -209,11 +209,11 @@ export default function Home() {
                 <div style={{ position: "relative" }}>
                   <div style={{ position: "absolute", inset: -3, background: "linear-gradient(135deg, #C8943A 0%, transparent 60%)", borderRadius: 8, zIndex: 0 }} />
                   <div style={{ position: "relative", zIndex: 1, borderRadius: 6, overflow: "hidden", border: "2px solid rgba(200,148,58,0.3)" }}>
-                    <img
+                    {/* <img
                       src={FERANMI_PHOTO}
                       alt="Oluwaferanmi Famawode"
                       style={{ width: "100%", display: "block", objectFit: "cover", objectPosition: "center top", maxHeight: 460 }}
-                    />
+                    /> */}
                     {/* Name overlay */}
                     <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, background: "linear-gradient(to top, rgba(11,13,17,0.92) 0%, transparent 100%)", padding: "32px 24px 20px" }}>
                       <div style={{ fontFamily: "'Helvetica Neue', sans-serif", fontSize: 11, letterSpacing: "0.25em", textTransform: "uppercase", color: "#C8943A" }}>Leadership Strategist</div>
@@ -223,14 +223,14 @@ export default function Home() {
                 </div>
 
                 {/* Stats row */}
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: 12 }}>
+                {/* <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: 12 }}>
                   {STATS.map((s) => (
                     <div key={s.label} style={{ background: "rgba(200,148,58,0.06)", border: "1px solid rgba(200,148,58,0.18)", borderRadius: 4, padding: "14px 10px", textAlign: "center" }}>
                       <div style={{ fontSize: "clamp(1.4rem, 3vw, 1.9rem)", fontWeight: 300, color: "#E8E4DC", lineHeight: 1 }}>{s.number}</div>
                       <div style={{ fontFamily: "'Helvetica Neue', sans-serif", fontSize: 10, color: "#9A968E", marginTop: 5, letterSpacing: "0.05em", lineHeight: 1.3 }}>{s.label}</div>
                     </div>
                   ))}
-                </div>
+                </div> */}
               </div>
             </FadeIn>
           </div>
@@ -311,7 +311,7 @@ export default function Home() {
       </section>
 
       {/* ─── VISION ─── */}
-      <section id="vision" style={{ padding: "100px 5vw", background: "#0F1116" }}>
+      {/* <section id="vision" style={{ padding: "100px 5vw", background: "#0F1116" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <FadeIn>
             <div className="section-label" style={{ marginBottom: 12 }}>Purpose</div>
@@ -357,10 +357,10 @@ export default function Home() {
             </div>
           </FadeIn>
         </div>
-      </section>
+      </section> */}
 
       {/* ─── SPEAKING ─── */}
-      <section id="speaking" style={{ padding: "100px 5vw", background: "#0B0D11" }}>
+      {/* <section id="speaking" style={{ padding: "100px 5vw", background: "#0B0D11" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <FadeIn>
             <div className="section-label" style={{ marginBottom: 12 }}>On Stage</div>
@@ -389,7 +389,7 @@ export default function Home() {
             </div>
           </FadeIn>
         </div>
-      </section>
+      </section> */}
 
       {/* ─── IMPACT ─── */}
       <section id="impact" style={{ padding: "100px 5vw", background: "#0F1116" }}>
