@@ -132,7 +132,7 @@ export default function Home() {
       <nav style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 100, background: "rgba(11,13,17,0.95)", backdropFilter: "blur(16px)", borderBottom: "1px solid rgba(200,148,58,0.12)", padding: "0 5vw" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 64 }}>
           <div onClick={() => scrollTo("about")} style={{ cursor: "pointer" }}>
-            <span style={{ fontFamily: "'Helvetica Neue', sans-serif", fontSize: 13, letterSpacing: "0.2em", textTransform: "uppercase", color: "#C8943A", fontWeight: 700 }}>OLF</span>
+            <span style={{ fontFamily: "'Helvetica Neue', sans-serif", fontSize: 13, letterSpacing: "0.2em", textTransform: "uppercase", color: "#C8943A", fontWeight: 700 }}>TOF</span>
           </div>
           <div className="hide-mobile" style={{ display: "flex", gap: 36, alignItems: "center" }}>
             {NAV_LINKS.map((l) => (
